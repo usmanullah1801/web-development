@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Application form </title>
+</head>
+<body>
+	<h1>Application Form</h1>
+
+	<form>
+
+		<!-- A. General Information-->
+		 <h2>A. General Information</h2>
+
+		 <label>Proposed Insured's Full Name *</label>
+		 <input type="text" required>
+
+		 <br><br>
+
+		 <label>Birth Date *</label>
+		 <input type="date" required>
+
+		 <br><br>
+
+		 <label>Gender *</label>
+		 <input type="radio" name="Gender"> Male
+		 <input type="radio" name="Gender"> Female
+
+		 <br><br>
+
+		 <label>Adress *</label><br>
+		 <textarea rows="4" cols="40" required></textarea>
+		  
+		 <br><br>
+
+		 <label>Phone Number *</label>
+		 <input type="tel" required>
+
+		 <br><br>
+
+		 <label>Email Adress *</label>
+		 <input type="email" required>
+
+		 <br><br>
+
+		 <label>Social Security / Reference Number</label>
+		  
+		 <input type="text">
+
+		 <br><br>
+
+		 <label>Marital Status *</label>
+		 <select required>
+			<option value="select Status"></option>
+			<option>Single</option>
+			<option>Married</option>
+			<option>Divorced</option>
+		 </select>
+
+		 <br><br>
+
+		 <label>Occupation *</label>
+		 <input type="text" required>
+
+		 <br><br>
+
+		 <label>Are You Retired?</label>
+		 <input type="radio" name="Retired"> Yes
+		 <input type="radio" name="retired"> No
+
+		 <!-- B. Health Coverage-->
+		  <h2>B. Type of Health Coverage</h2>
+
+		  <h3>Employee Coverage</h3>
+
+		  <input type="radio" name="employee"> Yes
+		  <input type="radio" name="employee"> No 
+
+		  <br><br>
+
+		  <label>Employee Plan Choice</label>
+		  <select>
+			   <option>Select Plan</option>
+			   <option>Basic</option>
+			   <option>Standard</option>
+			   <option>Premium</option>
+
+		  </select>
+
+		  <h3>Spouse Coverage</h3>
+		  <input type="radio" name="spouse"> Yes 
+		  <input type="rdio" name="spouse"> No 
+
+		  <br><br>
+
+		  <label>Spouse Plan Choice</label>
+		  <select>
+			<option>Select Plan</option>
+			<option>Basic</option>
+			<option>Standard</option>
+			<option>Premium</option>
+		  </select>
+
+		  <h3>Children Coverage</h3>
+		  <input type="radio" name="Children"> Yes
+		  <input type="radio" name="Children"> No 
+		
+		<br><br>
+
+		<label>Children Plan Choice</label>
+		<select>
+			<option>Select Plan</option>
+			<option>Basic</option>
+			<option>Standard</option>
+			<option>Premium</option>
+		</select>
+
+		<!-- C. Spouse / Children-->
+		<h2>C. Spouse / Children Information</h2>
+
+		<label>Dependent Name</label>
+		<input type="text">
+
+		<br><br>
+
+		<label>ID / SSN</label>
+		<input type="text">
+
+		<br><br>
+
+		<label>Relationship</label>
+		<select>
+			<option>Select Relationship</option>
+			<option>Spouse</option>
+			<option>Child</option>
+		</select>
+
+		<br><br>
+
+		<label>Birth Date</label>
+		<input type="date">
+		 
+		<br><br>
+
+		<label>Age</label>
+		<input type="number">
+
+		<br><br>
+
+		<label>Gender</label>
+		<select>
+			<option>Select Gender</option>
+			<option>Male</option>
+			<option>Female</option>
+		</select>
+
+		<!-- D. Policy-->
+		 <h2>D. Policy Information</h2>
+
+		 <label>Units</label>
+		 <input type="number">
+
+		 <br><br>
+
+		 <label>Annual Premium</label>
+		 <input type="number">
+
+		 <br><br>
+
+		 <label>Payment Mode *</label>
+		 <select>required
+			<option>Select Payment Mode</option>
+			<option>Monthly</option>
+			<option>Quarterly</option>
+			<option>Yearly</option>
+		 </select>
+
+		 <br><br>
+
+		 <label>Cash With Application</label>
+		 <input type="number">
+
+		 <br><br>
+
+		 <label>Planned Monthly Premium</label>
+		 <input type="number">
+		 <!-- E. Documents -->
+		  <h2>E. required Document </h2>
+
+		  <p>Please Attach your supporting document.</p>
+
+		  <label>Attach Document *</label>
+		  <input type="file">
+				 accept=".pdf,.jpg,.jpeg,.png"
+				 <required>
+				
+		 <!-- F. Declaration -->
+		  <h2>F. Declaration</h2>
+
+		  <input type="checkbox" required>
+
+		  <label>
+			I confirm that the information provided in this 
+			 application is complete and accurate.
+		  </label>
+
+		  <label>Application Full Name / Signature *</label>
+		  <input type="text" required>
+		  
+		  <br><br>
+
+		  <label>Application Data *</label>
+		  <input type="date" required>
+
+		  <br><br>
+
+		  <button type="reset">Clear form</button>
+
+		  <button type="submit">submit Application </button>
+
+
+
+
+	</form>
+	
+</body>
+</html>
